@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BLEScan</string>
+    <string name="start">Start Scan</string>
+    <string name="stop">Stop Scan</string>
+    <string name="rssi_info">RSSI: %1$s</string>
+    <string name="timestamp_info">Timestamp: %1$s</string>
+    <string name="asc">ASC</string>
+    <string name="desc">DESC</string>
+</resources>
