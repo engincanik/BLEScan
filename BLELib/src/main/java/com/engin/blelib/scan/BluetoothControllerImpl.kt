@@ -8,8 +8,6 @@ import android.content.Context
 import android.content.IntentFilter
 import android.content.pm.PackageManager
 import android.os.Build
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MutableLiveData
 import com.engin.blelib.model.ScannedDevice
 import com.engin.blelib.util.toBluetoothDeviceDomain
 import kotlinx.coroutines.flow.MutableStateFlow
@@ -18,7 +16,7 @@ import kotlinx.coroutines.flow.update
 
 
 @SuppressLint("MissingPermission")
-class AndroidBluetoothController(
+class BluetoothControllerImpl(
     private val context: Context
 ) : BluetoothController {
 

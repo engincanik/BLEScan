@@ -1,7 +1,7 @@
 package com.engin.blescan.di
 
 import android.content.Context
-import com.engin.blelib.scan.AndroidBluetoothController
+import com.engin.blelib.scan.BluetoothControllerImpl
 import com.engin.blelib.scan.BluetoothController
 import dagger.Module
 import dagger.Provides
@@ -17,6 +17,6 @@ object AppModule {
     @Provides
     @Singleton
     fun provideBluetoothController(@ApplicationContext context: Context): BluetoothController {
-        return AndroidBluetoothController(context)
+        return BluetoothControllerImpl(context)
     }
 }
